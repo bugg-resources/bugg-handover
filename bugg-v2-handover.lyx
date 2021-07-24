@@ -496,7 +496,6 @@ IP66 not tested, due to unsuitable equipment.
  Failed IP67 (harsher) testing - after 60 min immersion at 1m, approx 1ml
  of water leaked.
  Rain (IP2-4) should be no problem.
- Humidity performance untested.
 \end_layout
 
 \end_inset
@@ -518,7 +517,7 @@ Tough, high-impact polymer - PC / PC-ABS.
 
 \begin_layout Plain Layout
 \paragraph_spacing single
-Selected ABS Polylac PA-727; slightly better moulding performance, 3mm wall
+ABS Polylac PA-727; better moulding performance, 3mm nominal wall
 \end_layout
 
 \end_inset
@@ -576,8 +575,7 @@ Selected custom part from Voir.
 
 \begin_layout Plain Layout
 \paragraph_spacing single
-Opaque single colour design, low visibility - dark colour - blue-grey/black
- etc.
+Opaque single colour, low visibility
 \end_layout
 
 \end_inset
@@ -842,6 +840,185 @@ name "fig:Production-panel-including"
 \end_inset
 
 Production panel including four sub-panels
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Manual Assembly Steps
+\end_layout
+
+\begin_layout Subsubsection
+Preparation
+\end_layout
+
+\begin_layout Standard
+The use of anti-static assembly gloves or finger cots is recommended to
+ prevent skin oils coating the boards, and reduce risk of anti-static damage.
+ A full anti-static environment is not required, but is a benefit if available.
+\end_layout
+
+\begin_layout Subsubsection
+Vacuum pick-up pads
+\end_layout
+
+\begin_layout Standard
+There is a number of orange Kapton film stickers and solid black plastic
+ vacuum pick-up pads covering various components on the board.
+ These are required for the pick-and-place machine to lift parts with uneven
+ surfaces.
+ Remove and discard them before proceeding.
+\end_layout
+
+\begin_layout Subsubsection
+Depanel
+\end_layout
+
+\begin_layout Enumerate
+Break each PCB out of the panel.
+ This can be done by hand, or with the assistance of a nibbler.
+ Take care not to flex each board more than necessary, but don't be afraid
+ of using some force.
+\end_layout
+
+\begin_layout Enumerate
+Remove all of the small spanning tabs that join the mouse-bites, leaving
+ each board with a continuous, smooth outline.
+ This can be done by gripping them with a pair of pliers and bending them
+ away until they come apart at the line of small holes.
+\end_layout
+
+\begin_layout Subsubsection
+LED - Microphone assembly
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/led-mic-parts.jpg
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Parts-for-the"
+
+\end_inset
+
+Parts for the LED-Microphone assembly
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Parts-for-the"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ shows the parts required for the LED-Microphone board assembly.
+\end_layout
+
+\begin_layout Enumerate
+Ensure the brown locking bar on the LED board FFC connector is raised approximat
+ely 45°.
+\end_layout
+
+\begin_layout Enumerate
+Insert the FFC cable into the connector, above the locking bar, with the
+ blue side facing downwards.
+ Ensure the cable is square to the board edge.
+\end_layout
+
+\begin_layout Enumerate
+Ensure that the FFC cable is pushed in fully.
+ Press down the locking bar from both ends to lock it in place.
+\end_layout
+
+\begin_layout Enumerate
+Mate the LED and microphone boards at the 8-way board-to-board connector.
+ The holes in the LED boards should line up with the spacers on the microphone
+ board.
+\end_layout
+
+\begin_layout Enumerate
+Screw in the two M3 machine screws with a T10 Torx driver.
+\end_layout
+
+\begin_layout Standard
+The completed assembly should be as pictured in Figure 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "fig:Completed-LED-Microphone-assembl"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset Float figure
+wide false
+sideways false
+status open
+
+\begin_layout Plain Layout
+\begin_inset Graphics
+	filename img/led-mic-assembled.jpg
+	lyxscale 20
+	width 100col%
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Plain Layout
+\begin_inset Caption Standard
+
+\begin_layout Plain Layout
+\begin_inset CommandInset label
+LatexCommand label
+name "fig:Completed-LED-Microphone-assembl"
+
+\end_inset
+
+Completed LED-Microphone assembly
 \end_layout
 
 \end_inset

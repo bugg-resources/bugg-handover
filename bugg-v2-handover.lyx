@@ -29,7 +29,17 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
-\use_hyperref false
+\spacing single
+\use_hyperref true
+\pdf_bookmarks true
+\pdf_bookmarksnumbered true
+\pdf_bookmarksopen true
+\pdf_bookmarksopenlevel 1
+\pdf_breaklinks false
+\pdf_pdfborder true
+\pdf_colorlinks false
+\pdf_backref section
+\pdf_pdfusetitle true
 \papersize default
 \use_geometry false
 \use_package amsmath 1
@@ -44,6 +54,7 @@
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -77,6 +88,15 @@
 
 \begin_layout Title
 BUGG v2 Handover Report
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -1137,6 +1157,10 @@ Simplified exploded view of the BUGGv2 unit
 
 \end_layout
 
+\begin_layout Subsection
+Enclosure components - Moulding and Assembly
+\end_layout
+
 \begin_layout Standard
 The enclosure consists of three injection moulded ABS parts - the 
 \emph on
@@ -1158,9 +1182,13 @@ noprefix "false"
 \end_inset
 
 .
+ Polylac PA-727 was selected as the resin, coloured RAL 7035 (Light Grey)
+ for the lid and base and RAL 9003 (Signal White) for the door.
+ The injection moulding tools were manufactured in Aluminium, for a good
+ trade-off of tooling cost and cycle life.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Lid
 \end_layout
 
@@ -1191,7 +1219,7 @@ Branding and notices are applied to the Lid, after injection moulding, via
  a pad printing process by a printing company
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Base
 \end_layout
 
@@ -1220,7 +1248,7 @@ wings
  
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Subsubsection
 Door
 \end_layout
 
@@ -1238,6 +1266,31 @@ noprefix "false"
 , red, side) features a FIPFG to seal against the Lid, and two holes and
  lands for thumbscrews to provide the clamping force.
  
+\end_layout
+
+\begin_layout Subsection
+Manual Assembly Steps
+\end_layout
+
+\begin_layout Standard
+After the enclosure parts have been moulded, FIPFG's applied and pad printing
+ completed, a number of manual steps must be completed.
+\end_layout
+
+\begin_layout Subsubsection
+Antenna mounting
+\end_layout
+
+\begin_layout Standard
+
+\end_layout
+
+\begin_layout Subsubsection
+M12 Power/Data cable assembly
+\end_layout
+
+\begin_layout Section
+Known issues / bugs
 \end_layout
 
 \end_body

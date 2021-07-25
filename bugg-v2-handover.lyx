@@ -115,10 +115,23 @@ Building upon previous work, the main goal of the design presented herein
 Monad Gottfried Ltd.
  divided the work into three work packages - WP1a and WP1b delivered prototype
  and production PCBA's respectiely, and WP3 delivered an injection moulded
- enclosure.
+ enclosure design and a batch of 70 fully assembled units.
 \begin_inset Newpage pagebreak
 \end_inset
 
+
+\end_layout
+
+\begin_layout Section
+Design Pack
+\end_layout
+
+\begin_layout Standard
+The completed design materials are issued with this companion document as
+ a set of Git repositories.
+\end_layout
+
+\begin_layout Standard
 
 \end_layout
 
@@ -174,7 +187,7 @@ Powered by DC 4-20V approx
 
 \begin_layout Plain Layout
 \paragraph_spacing single
-Two inputs; 5V designed for USB connection, 5-30V flexible input for field
+Two inputs; 5V designed for USB connection, 5-36V flexible input for field
  deployment.
  Seamless automatic cross-over.
 \end_layout
@@ -1347,8 +1360,8 @@ Pressing the threaded inserts into the lower surface of the lid
 \end_layout
 
 \begin_layout Enumerate
-Load the insert guide into the arbour press ram, lock in place with grub
- screw.
+Load the insert guide into the arbour press ram, lock in place with the
+ grub screw.
 \end_layout
 
 \begin_layout Enumerate
@@ -1429,8 +1442,8 @@ Pressing the threaded inserts into the door recess
 \end_layout
 
 \begin_layout Enumerate
-Load the insert guide into the arbour press ram, lock in place with grub
- screw.
+Load the insert guide into the arbour press ram, lock in place with the
+ grub screw.
 \end_layout
 
 \begin_layout Enumerate
@@ -1836,7 +1849,7 @@ V+
 \begin_inset Text
 
 \begin_layout Plain Layout
-6-36V power in
+5-36V power in
 \end_layout
 
 \end_inset
@@ -2156,8 +2169,8 @@ Strip insulation back approximately 2.5mm.
 \end_layout
 
 \begin_layout Enumerate
-Using Mouser crimping tool 63819-2800 to crimp terminal 502438-0100 onto
- each wire using the 22AWG opening.
+Use Mouser crimping tool 63819-2800 to crimp terminal 502438-0100 onto each
+ wire using the 22AWG opening.
  Follow the tool's instructions.
  See Figure 
 \begin_inset CommandInset ref
@@ -2175,12 +2188,12 @@ noprefix "false"
 \end_layout
 
 \begin_layout Enumerate
-Twist the USB D+/D- together with approximately five twists.
+Twist the USB D+/D- wires together with approximately five twists.
  
 \end_layout
 
 \begin_layout Enumerate
-Insert the D+/D- wires into the ClickMate connector housing 502439-0500.
+Insert the crimped D+/D- wires into the ClickMate connector housing 502439-0500.
  Follow the wiring guide in Table 
 \begin_inset CommandInset ref
 LatexCommand ref
@@ -2240,7 +2253,7 @@ name "fig:Close-view-of"
 \end_inset
 
 Close view of the ClikMate pinout.
- Note the locking tab facing upwards.
+ Note the locking tab facing the camera lens.
 \end_layout
 
 \end_inset
@@ -2258,7 +2271,7 @@ M12 Power/Data cable installation
 \end_layout
 
 \begin_layout Enumerate
-Feed the cable into the hole in the Lid.
+Thread the cable through the hole in the Lid.
 \end_layout
 
 \begin_layout Enumerate

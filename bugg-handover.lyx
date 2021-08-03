@@ -151,8 +151,17 @@ Specification
 \end_layout
 
 \begin_layout Standard
-See Appendix XXX for detail of the product specification as issued and as
- delivered.
+See Appendix 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "sec:Specification"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+ for detail of the product specification as issued and as delivered.
  Various details changed as the project evolved, including input from the
  client team.
 \end_layout
@@ -182,7 +191,7 @@ The completed design materials are issued with this companion document as
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="7" columns="3">
+<lyxtabular version="3" rows="8" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="55text%">
@@ -192,7 +201,6 @@ The completed design materials are issued with this companion document as
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 
 \series bold
 Repository name
@@ -230,7 +238,6 @@ Tool
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 sp-hardware-main
 \end_layout
 
@@ -262,7 +269,6 @@ KiCad
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 sp-hardware-led
 \end_layout
 
@@ -294,7 +300,6 @@ KiCad
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 sp-hardware-mic
 \end_layout
 
@@ -326,7 +331,6 @@ KiCad
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 sp-hardware-panel
 \end_layout
 
@@ -359,7 +363,6 @@ KiCad LibreOffice/ Excel
 \begin_inset Text
 
 \begin_layout Plain Layout
-\noindent
 bugg-enclosure
 \end_layout
 
@@ -388,11 +391,40 @@ FreeCAD
 </cell>
 </row>
 <row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+bugg-mech-tooling
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Tools to aid assembly of the enclosure components
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+STEP/STL interchange
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
 <cell alignment="left" valignment="top" usebox="none">
 \begin_inset Text
 
 \begin_layout Plain Layout
-bugg-v2-handover
+bugg-handover
 \end_layout
 
 \end_inset
@@ -445,7 +477,7 @@ SafeProject
 \begin_inset Quotes eld
 \end_inset
 
-BUGG-v2
+BUGG
 \begin_inset Quotes erd
 \end_inset
 
@@ -2745,6 +2777,12 @@ Fix: Not identified at this time, but a future mould revision should provide
 
 \begin_layout Section
 \start_of_appendix
+\begin_inset CommandInset label
+LatexCommand label
+name "sec:Specification"
+
+\end_inset
+
 Specification
 \end_layout
 
@@ -2908,7 +2946,7 @@ Form-in-place gasketing
 \begin_inset Text
 
 \begin_layout Plain Layout
-Robafoam
+Robafoam, Ceracon Ltd.
 \end_layout
 
 \end_inset

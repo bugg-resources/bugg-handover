@@ -191,7 +191,7 @@ The completed design materials are issued with this companion document as
 
 \begin_layout Standard
 \begin_inset Tabular
-<lyxtabular version="3" rows="8" columns="3">
+<lyxtabular version="3" rows="9" columns="3">
 <features tabularvalignment="middle">
 <column alignment="left" valignment="top" width="0pt">
 <column alignment="left" valignment="top" width="55text%">
@@ -414,6 +414,35 @@ Tools to aid assembly of the enclosure
 
 \begin_layout Plain Layout
 STEP/STL interchange
+\end_layout
+
+\end_inset
+</cell>
+</row>
+<row>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+rpi-eco-monitoring-v3
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Firmware running on the Raspberry Pi Compute Module
+\end_layout
+
+\end_inset
+</cell>
+<cell alignment="center" valignment="top" usebox="none">
+\begin_inset Text
+
+\begin_layout Plain Layout
+Any Python code editor
 \end_layout
 
 \end_inset
@@ -2575,8 +2604,24 @@ Flashing the OS image
 \end_layout
 
 \begin_layout Standard
+The firmware for the device is in rpi-eco-monitoring-v3.
+ The README file details the contents of the firmware, and instructions
+ for building a full OS image from a stock Raspberry Pi OS Lite image as
+ a starting point.
+ A pre-built OS image 
+\begin_inset Quotes eld
+\end_inset
+
+2021-06-21-norway-release-1-0.img
+\begin_inset Quotes erd
+\end_inset
+
+ is provided for immediate deployment of the firmware to a Bugg device.
+\end_layout
+
+\begin_layout Standard
 Plugging a cable into the Micro USB conector automatically places the CM4
- bootloader into firmware update mode, allowing an OS image to be downloaded
+ bootloader into firmware update mode, allowing the OS image to be downloaded
  to the eMMC storage.
  It is recommended to use the 
 \emph on

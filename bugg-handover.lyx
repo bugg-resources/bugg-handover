@@ -2776,6 +2776,88 @@ Fix: Not identified at this time, but a future mould revision should provide
 \end_layout
 
 \begin_layout Section
+Design Changes for Next Revision
+\end_layout
+
+\begin_layout Subsection
+Circuit Design
+\end_layout
+
+\begin_layout Subsubsection
+Add TVS diode to RTC backup battery
+\end_layout
+
+\begin_layout Subsection
+PCB Design
+\end_layout
+
+\begin_layout Subsubsection
+Move microUSB connector inboard (see Erratum 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Antenna-is-a"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+Move CM4 inboard (see Erratum 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:bugg-main-r3:-CM4-fouls"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsection
+Plastics
+\end_layout
+
+\begin_layout Subsubsection
+Create lead-in feature for light pipe holes (see Erratum 
+\begin_inset CommandInset ref
+LatexCommand ref
+reference "subsec:Lightpipe-holes-need"
+plural "false"
+caps "false"
+noprefix "false"
+
+\end_inset
+
+)
+\end_layout
+
+\begin_layout Subsubsection
+Apply bead blast finish to top surfaces of Base moulding
+\end_layout
+
+\begin_layout Subsubsection
+Increase size of SIM/SD slot to increase clearance for easier mating
+\end_layout
+
+\begin_layout Subsubsection
+Increase door hole diameter for M3 clearance (after deciding on method of
+ thumbscrew capture)
+\end_layout
+
+\begin_layout Standard
+\begin_inset Newpage pagebreak
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
 \start_of_appendix
 \begin_inset CommandInset label
 LatexCommand label

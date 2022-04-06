@@ -1,6 +1,6 @@
 # bugg-handover
 
-This repository contains the handover documents for the Bugg recording device.
+This repository contains a document detailing the design and assembly instructions needed to produce a Bugg recording device (including both the electronics and enclosure components).
 
 Within the [main handover document](https://raw.githubusercontent.com/bugg-resources/bugg-handover/master/bugg-handover.pdf?token=GHSAT0AAAAAABSRG7B7T6BEZWMJQBPE7FNYYSNI6KQ) there is a design overview, full manufacture and assembly instructions, and a list of errata that are due to be changed in the next revision.
 

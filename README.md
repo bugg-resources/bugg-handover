@@ -2,7 +2,7 @@
 
 This repository contains a document detailing the design and assembly instructions for the hardware of a Bugg recording device (including both the electronics and mechanical enclosure components). 
 
-The firmware running on the device (and associated documentation) can be found in [``bugg-cm4-firmware``](https://github.com/bugg-resources/bugg-cm4-firmware).
+The firmware running on the device, with associated documentation, can be found in [``bugg-cm4-firmware``](https://github.com/bugg-resources/bugg-cm4-firmware).
 
 Within the [main handover document](https://raw.githubusercontent.com/bugg-resources/bugg-handover/master/bugg-handover.pdf?token=GHSAT0AAAAAABSRG7B7T6BEZWMJQBPE7FNYYSNI6KQ) there is a design overview, full manufacture and assembly instructions, and a list of errata that are due to be changed in the next revision.
 

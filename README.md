@@ -1,3 +1,5 @@
+![cc-by-nc-sa-shield](https://img.shields.io/badge/License-CC%20BY--NC--SA%204.0-lightgrey.svg)
+
 # bugg-handover
 
 This repository contains a document detailing the design and assembly instructions for the hardware of a Bugg recording device (including both the electronics and mechanical enclosure components). 

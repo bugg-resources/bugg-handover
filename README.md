@@ -13,7 +13,7 @@ The repositories referenced in the document which host the electrical and mechan
 * [``sp-hardware-led``](https://github.com/bugg-resources/sp-hardware-led): led module PCB eCAD files
 * [``sp-hardware-mic``](https://github.com/bugg-resources/sp-hardware-mic): mic module PCB eCAD files
 * [``sp-hardware-panel``](https://github.com/bugg-resources/sp-hardware-panel): combined panel PCB eCAD files
-* [``bugg-enclosure``](https://github.com/bugg-resources/bugg-enclosure): 3D CAD files and full assembly for the device including injection moulded enclosure, connectors, fasteners, etc.   
+* [``bugg-enclosure``](https://github.com/bugg-resources/bugg-enclosure): 3D CAD files for the custom enclosure and full assembly for the Bugg device including connectors, fasteners, etc.   
 * [``bugg-mech-tooling``](https://github.com/bugg-resources/bugg-mech-tooling): 3D CAD files for tools to aid assembly of the device
 
 ## Bugg assembly 

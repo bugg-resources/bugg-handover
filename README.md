@@ -13,3 +13,9 @@ The repositories referenced in the document which host the electrical and mechan
 * [``sp-hardware-panel``](https://github.com/bugg-resources/sp-hardware-panel): combined panel PCB eCAD files
 * [``bugg-enclosure``](https://github.com/bugg-resources/bugg-enclosure): 3D CAD files and full assembly for the device including injection moulded enclosure, connectors, fasteners, etc.   
 * [``bugg-mech-tooling``](https://github.com/bugg-resources/bugg-mech-tooling): 3D CAD files for tools to aid assembly of the device
+
+## Bugg assembly 
+
+![Bugg full assembly - inside](https://raw.githubusercontent.com/bugg-resources/bugg-handover/master/img/bugg-v2-inside-annotate.png?raw=true)
+![Bugg full assembly - top](https://raw.githubusercontent.com/bugg-resources/bugg-handover/master/img/bugg-v2-top.png?raw=true)
+![Bugg full assembly - side](https://raw.githubusercontent.com/bugg-resources/bugg-handover/master/img/bugg-v2-side-annotate.png?raw=true)
